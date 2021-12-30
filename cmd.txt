@@ -1,0 +1,2 @@
+sudo spctl --master-disable         :         To disable gatekeeper
+sudo spctl --master-enable          :         To enable gatekeeper
