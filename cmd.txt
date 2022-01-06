@@ -1,2 +1,9 @@
 sudo spctl --master-disable         :         To disable gatekeeper
 sudo spctl --master-enable          :         To enable gatekeeper
+
+
+TO ADD A NEW PATH TO YOUR ENVIRONMENT VARIABLES
+vim ~/.zshrc
+Then add those eviornment variable
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
