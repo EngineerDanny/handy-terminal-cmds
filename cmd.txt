@@ -7,3 +7,4 @@ vim ~/.zshrc
 Then add those eviornment variable
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
+Save the profile file with :wq , then, run source ~/.zshrc
