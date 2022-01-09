@@ -1,0 +1,2 @@
+apk-mitm /Users/newuser/Desktop/fh.apk 
+apk-mitm /Users/newuser/Desktop/fh.apk --cert /Users/newuser/Desktop/cert.cer 
