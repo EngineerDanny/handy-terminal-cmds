@@ -13,3 +13,8 @@ NB: To add another PATH, separate it by using :
 
 Save the profile file with :wq , then, run source ~/.zshrc
 Exit from the command :qa
+
+PROXY TERMINAL CONNECTION FIX
+`export HTTPS_PROXY=https://<proxy.mycompany>:<port>`
+`git config --global https.proxy $HTTPS_PROXY`
+`git config --global --get https.proxy`
