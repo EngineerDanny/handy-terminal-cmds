@@ -18,3 +18,7 @@ PROXY TERMINAL CONNECTION FIX
 `export HTTPS_PROXY=https://<proxy.mycompany>:<port>`
 `git config --global https.proxy $HTTPS_PROXY`
 `git config --global --get https.proxy`
+
+
+INSTALL AN IPA FILE ON A SIMULATOR
+xcrun simctl install <Simulator ID> <Path to .ipa>
