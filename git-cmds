@@ -1,0 +1,6 @@
+These commands to force .gitignore rules on the files
+git rm -r --cached .     
+git rm -r -f --cached .  
+
+git add .
+git commit -m "Message"
